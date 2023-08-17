@@ -20,7 +20,7 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   -- colorscheme = "catppuccin",
-  colorscheme = "catppuccin",
+  colorscheme = "fluoromachine",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
