@@ -20,6 +20,19 @@ return {
       return opts
     end,
   },
+  {
+    "maxmx03/fluoromachine.nvim",
+    config = function()
+      local fm = require "fluoromachine"
+
+      fm.setup {
+        glow = false,
+        theme = "fluoromachine",
+      }
+
+      vim.cmd.colorscheme "fluoromachine"
+    end,
+  },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
